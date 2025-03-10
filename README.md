@@ -1,4 +1,12 @@
-# React + TypeScript + Vite
+# Prototype Headless Architecture
+
+This is a prototype for my research regarding the headless architecture that will be adopted during my graduation internship project. This is a minimal Vite React application showcasing the freedom and flexibility the headless architecture gives, when compared to the default way of creating UIs using Shopify's Liquid templates.
+
+## Code
+
+All the relevant code is present in the `/App.ts` file. This file contains a `fetchData()` function, responsible for making API calls to the Shopify API. The products that are then returned, are rendered in a list to display the various products. 
+
+## Template
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
